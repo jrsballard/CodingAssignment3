@@ -3,6 +3,8 @@
     <head>
         <meta name="author" content="Jackson Ballard">
         <title>Super Cool Recipe With a Creative Name</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
         <style>
             h1 {color:purple;}
             h2 {color: green;}
@@ -36,7 +38,19 @@
             <li>2 cups medium or long grain white rice</li>
             <li>2 1/2 cups water</li>
         </ul>
-        <h3>Equipment list:</h3>
+        <h3 class="rate">Rate This Recipe</h3>
+            <fieldset style="width: 250px;">
+            <legend>How difficult is this recipe?</legend>
+                <input type="radio" id="easy" name="easy"> Easy
+                <input type="radio" id="med" name="med">Intermediate
+                <input type="radio"id="hard" name="hard"> Hard
+            </fieldset>
+        <p>&nbsp;</p>
+        <h3>Conversion</h3>
+        <input type="text" id="tblspn" name ="tblspn">
+        =
+        <input type="text" id="cups" name="cups">
+        <!--<h3>Equipment list:</h3>
         <ul>
             <li>chefs knife and cutting board</li>
             <li>measuring cups and spoons</li>
@@ -45,7 +59,7 @@
             <li>mixing bowl</li>
             <li>tongs</li>
             <li>plate</li>
-        </ul>
+        </ul>-->
         <h3>Directions:</h3>
         <ul>
             <li>1: Make the Creole seasoning. Place 1 tablespoon garlic powder, 1 tablespoon onion powder, 1 tablespoon paprika, 1 teaspoon ground white pepper, and 1/2 teaspoon ground cayenne in a small bowl and stir to combine.</li>
